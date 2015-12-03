@@ -1,0 +1,26 @@
+{
+  "name": "live-polling",
+  "version": "0.0.1",
+  "description": "An app that allows speakers to poll audience members",
+  "main": "app-server.js",
+  "dependencies": {
+    "babel-core": "^6.2.1",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "bootstrap": "^3.3.6",
+    "express": "^4.13.3",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "socket.io": "^1.3.7",
+    "socket.io-client": "^1.3.7",
+    "webpack": "^1.12.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "prestart": "webpack",
+    "start": "node app-server.js"
+  },
+  "author": "Mathias",
+  "license": "MIT"
+}
